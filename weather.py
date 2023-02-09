@@ -19,5 +19,5 @@ def weather(city):
 
 if __name__ == "__main__":
     print("enter the city name")
-    city = input()
+    city = str(input())
     weather(city)
